@@ -1,0 +1,32 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#seats {
+  margin-top: 20px;
+}
+.seatno {
+  margin: 10px;
+  cursor: pointer;
+}
+p {
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+small {
+  color: #000000;
+}
+small #seats {
+  margin-left: 3px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Seat Reservation</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <form action="" id="form">
+        <span>Pick a movie:</span>
+        <select name="movie" id="movie">
+          <option value="10">Avengers: EndGame($10)</option>
+          <option value="12">Toy Story($12)</option>
+          <option value="8">The Lion King($8)</option>
+          <option value="12">Joker($12)</option>
+        </select>
+      </form>
+      <div id="seats">
+        <span class="seatno" data-value="1">1</span>
+        <span class="seatno" data-value="2">2</span>
+        <span class="seatno" data-value="3">3</span>
+        <span class="seatno" data-value="4">4</span>
+        <span class="seatno" data-value="5">5</span>
+        <span class="seatno" data-value="6">6</span>
+        <span class="seatno" data-value="7">7</span>
+        <span class="seatno" data-value="8">8</span>
+        <span class="seatno" data-value="9">9</span>
+        <span class="seatno" data-value="10">10</span>
+      </div>
+      <p id="info">
+        You have selected <small id="totalSeats">0</small> seats for a price of
+        $ <small id="price">0</small>
+      </p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
