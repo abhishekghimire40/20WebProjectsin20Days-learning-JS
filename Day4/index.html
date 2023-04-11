@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exchange Rate Calculator</title>
+    <script
+      src="https://kit.fontawesome.com/2f17bb3fc4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="dollarImage" id="dollarImage">
+        <i class="fa-solid fa-dollar-sign"></i>
+      </div>
+      <h1 class="heading" id="heading">Exchange Rate Calculator</h1>
+      <p class="paragraph">
+        Choose the currency and the amount to get the exchange rate
+      </p>
+      <div class="first" id="first">
+        <select id="select1Curr" class="select">
+          <option value="">USD</option>
+          <option value="">AUD</option>
+          <option value="">NPR</option>
+        </select>
+        <input type="number" id="Curr1value" class="currvalue" />
+      </div>
+      <div class="second" id="second">
+        <button class="swap" id="swap">Swap</button>
+        <span class="currRate" id="currRate">1 USD = 134 NPR</span>
+      </div>
+      <div class="third" id="third">
+        <select id="select2Curr" class="select">
+          <option value="">USD</option>
+          <option value="">AUD</option>
+          <option value="">NPR</option>
+        </select>
+        <input type="number" id="Curr2value" class="currvalue" />
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
