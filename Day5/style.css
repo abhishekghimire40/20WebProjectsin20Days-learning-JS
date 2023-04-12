@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  background-color: #ccbbbb;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  font-size: 35px;
+}
+.container {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  padding: 20px 10px;
+  /* background-color: red; */
+}
+.container .main-btns {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.main-btns .userBtns {
+  margin-bottom: 10px;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.container .vertical_Line {
+  width: 2px;
+  background-color: #666;
+  margin-right: 30px;
+}
+.container .dataDiv {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+.headings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.headingPerson {
+  font-size: 16px;
+  font-weight: 600;
+}
+.headingWealth {
+  font-size: 18px;
+  font-weight: 200;
+}
+.horizontal_Line {
+  margin-bottom: 5px;
+  height: 2px;
+  background-color: #666;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.info .usersInfo {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.data {
+  font-size: 15px;
+}
+
+.total {
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 4px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0px 2px 1px #666;
+  margin-top: 10px;
+}
+.total .totalWealth2 {
+  font-weight: 600;
+}
